@@ -17,7 +17,6 @@ test('Should handle input between 0 and 2 and return the correct array', () => {
 
 
 test('Should satisfy the requirements of a valid Fibonacci sequence', () => {
-  //218922995834555169026
   expect(fib(10)).toEqual([0, 1, 1, 2, 3, 5, 8, 13, 21, 34]);
   expect(fib(50)).toContain(7778742049);
   expect(fib(79)).toContain(8944394323791464);
